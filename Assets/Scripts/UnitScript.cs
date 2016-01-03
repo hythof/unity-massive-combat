@@ -9,8 +9,8 @@ public class UnitScript : MonoBehaviour
 	[SerializeField] Animator animator;
 	Side side;
 	Unit unit;
-	const float minY = -14;
-	const float maxY = 14;
+	const float minY = 0;
+	const float maxY = 10;
 	const float minX = -7.5f;
 	const float maxX = 7.5f;
 

@@ -10,9 +10,9 @@ public class BattleScript : MonoBehaviour
 	[SerializeField] Transform leftRoot;
 	[SerializeField] Transform rightRoot;
 	[SerializeField] BattleState battleState;
-	[SerializeField] UnitScript[] LeftUnits;
-	[SerializeField] UnitScript[] RightUnits;
 	[SerializeField] Text uiResult;
+	UnitScript[] LeftUnits;
+	UnitScript[] RightUnits;
 	Player player = new Player();
 	Parameter parameter;
 
